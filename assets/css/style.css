@@ -71,4 +71,11 @@ h6 {
   overflow-wrap: break-word;
 }
 
+body {
+  min-height: 100vh;
+  background-color: #ecf2ff;
+  display: grid;
+  place-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */
