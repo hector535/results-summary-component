@@ -1,1 +1,19 @@
 @use "../abstracts/" as *;
+
+.summary {
+  display: grid;
+  gap: toRem(24px);
+  padding-block: toRem(24px);
+  padding-inline: toRem(32px);
+
+  &__scores {
+    display: grid;
+    gap: toRem(16px);
+  }
+
+  &__title {
+    font-size: toRem(18px);
+    color: #303b59;
+    font-weight: 700;
+  }
+}
