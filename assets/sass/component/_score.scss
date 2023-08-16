@@ -1,0 +1,59 @@
+@use "../abstracts/" as *;
+
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 12px;
+  padding: toRem(18px) toRem(16px);
+
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: toRem(12px);
+
+    font-weight: 500;
+  }
+
+  &__value {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+
+    span {
+      color: hsl(224, 30%, 27%, 0.5);
+    }
+  }
+
+  &--danger {
+    background: hsl(0, 100%, 67%, 0.05);
+
+    .score__title {
+      color: #f55;
+    }
+  }
+
+  &--warning {
+    background: hsl(39, 100%, 56%, 0.05);
+
+    .score__title {
+      color: #ffb21e;
+    }
+  }
+
+  &--success {
+    background: hsl(166, 100%, 37%, 0.05);
+
+    .score__title {
+      color: hsl(166, 100%, 37%);
+    }
+  }
+
+  &--info {
+    background: hsl(234, 85%, 45%, 0.05);
+
+    .score__title {
+      color: hsl(234, 85%, 45%);
+    }
+  }
+}
