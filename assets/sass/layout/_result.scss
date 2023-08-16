@@ -8,11 +8,15 @@
 
   text-align: center;
 
-  border-radius: 0px 0px 32px 32px;
   background: linear-gradient(180deg, #75f 0%, #2f2ce9 100%);
+  border-radius: 0px 0px 32px 32px;
+
+  @include breakpoint(toRem(768px)) {
+    border-radius: 0px 32px 32px 0px;
+  }
 
   &__title {
-    font-size: 18px;
+    font-size: toRem(18px);
     font-style: normal;
     font-weight: 700;
     color: #cac9ff;
