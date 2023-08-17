@@ -3,7 +3,7 @@
 .result {
   display: grid;
   gap: toRem(24px);
-  padding-block: toRem(24px);
+  padding: toRem(24px) toRem(32px);
   justify-items: center;
 
   text-align: center;
@@ -13,12 +13,11 @@
 
   @include breakpoint(toRem(768px)) {
     border-radius: 0px 32px 32px 0px;
+    gap: toRem(30px);
+    padding: toRem(38px) toRem(60px);
   }
 
   &__title {
-    font-size: toRem(18px);
-    font-style: normal;
-    font-weight: 700;
     color: #cac9ff;
   }
 
@@ -34,12 +33,24 @@
     line-height: toRem(72px);
     color: #fff;
 
+    @include breakpoint(toRem(768px)) {
+      width: toRem(200px);
+      height: toRem(200px);
+      font-size: toRem(72px);
+      display: grid;
+      align-content: center;
+    }
+
     span {
       display: block;
       font-size: toRem(16px);
       font-weight: 700;
       color: hsl(241, 100%, 89%, 0.5);
       line-height: normal;
+
+      @include breakpoint(toRem(768px)) {
+        font-size: toRem(18px);
+      }
     }
   }
 
@@ -47,13 +58,16 @@
     display: grid;
     gap: toRem(8px);
     margin-bottom: toRem(16px);
-    width: 70%;
   }
 
   &__sub-title {
     font-size: toRem(24px);
     font-weight: 700;
     color: #fff;
+
+    @include breakpoint(toRem(768px)) {
+      font-size: toRem(32px);
+    }
   }
 
   &__description {

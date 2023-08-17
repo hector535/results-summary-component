@@ -3,8 +3,12 @@
 .summary {
   display: grid;
   gap: toRem(24px);
-  padding-block: toRem(24px);
-  padding-inline: toRem(32px);
+  padding: toRem(24px) toRem(32px);
+
+  @include breakpoint(toRem(768px)) {
+    padding: toRem(38px) toRem(40px);
+    gap: toRem(28px);
+  }
 
   &__scores {
     display: grid;
@@ -12,8 +16,6 @@
   }
 
   &__title {
-    font-size: toRem(18px);
     color: #303b59;
-    font-weight: 700;
   }
 }

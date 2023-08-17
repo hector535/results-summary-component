@@ -4,4 +4,17 @@ body {
   font-family: "Hanken Grotesk";
   font-weight: 500;
   font-size: toRem(16px);
+
+  @include breakpoint(toRem(768px)) {
+    font-size: toRem(18px);
+  }
+}
+
+.title {
+  font-size: toRem(18px);
+  font-weight: 700;
+
+  @include breakpoint(toRem(768px)) {
+    font-size: toRem(24px);
+  }
 }

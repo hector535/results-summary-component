@@ -8,12 +8,20 @@
   border-radius: 12px;
   padding: toRem(18px) toRem(16px);
 
+  @include breakpoint(toRem(768px)) {
+    padding: toRem(16px);
+  }
+
   &__title {
     display: flex;
     align-items: center;
     gap: toRem(12px);
-
+    font-size: toRem(16px);
     font-weight: 500;
+
+    @include breakpoint(toRem(768px)) {
+      font-size: toRem(18px);
+    }
   }
 
   &__value {

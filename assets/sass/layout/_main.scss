@@ -5,6 +5,7 @@ main {
   @include breakpoint(toRem(768px)) {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
     border-radius: 32px;
     background: #fff;
     overflow: hidden;
