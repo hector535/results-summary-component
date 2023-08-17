@@ -5,6 +5,12 @@
   border-radius: 100vmax;
   background: #303b59;
   color: #fff;
+  font-size: toRem(18px);
   font-weight: 700;
-  padding-block: toRem(16px);
+  height: toRem(56px);
+  cursor: pointer;
+
+  &:hover {
+    background: linear-gradient(180deg, #75f 0%, #2f2ce9 100%);
+  }
 }
