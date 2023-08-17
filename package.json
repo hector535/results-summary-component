@@ -5,7 +5,7 @@
   "source": "index.html",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build",
+    "build": "sass assets/sass/style.scss:assets/css/style.css && parcel build",
     "watch": "sass --watch assets/sass/style.scss:assets/css/style.css"
   },
   "keywords": [],
