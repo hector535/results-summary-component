@@ -29,28 +29,28 @@
     font-weight: 700;
 
     span {
-      color: hsl(224, 30%, 27%, 0.5);
+      color: hsla(224, 30%, 27%, 0.5);
     }
   }
 
   &--danger {
-    background: hsl(0, 100%, 67%, 0.05);
+    background: hsla(0, 100%, 67%, 0.065);
 
     .score__title {
-      color: #f55;
+      color: hsl(0, 100%, 67%);
     }
   }
 
   &--warning {
-    background: hsl(39, 100%, 56%, 0.05);
+    background: hsla(39, 100%, 56%, 0.065);
 
     .score__title {
-      color: #ffb21e;
+      color: hsl(39, 100%, 56%);
     }
   }
 
   &--success {
-    background: hsl(166, 100%, 37%, 0.05);
+    background: hsla(166, 100%, 37%, 0.065);
 
     .score__title {
       color: hsl(166, 100%, 37%);
@@ -58,7 +58,7 @@
   }
 
   &--info {
-    background: hsl(234, 85%, 45%, 0.05);
+    background: hsla(234, 85%, 45%, 0.065);
 
     .score__title {
       color: hsl(234, 85%, 45%);
