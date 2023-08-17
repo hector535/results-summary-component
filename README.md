@@ -41,7 +41,7 @@ This is a solution to the [Results Summary Component](https://www.frontendmentor
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [Results Summary Component (SASS) | Frontend Mentor](https://www.frontendmentor.io/solutions/results-summary-component-s7Q8nFvUk6)
+- Solution URL: [Results Summary Component (SASS) | Frontend Mentor](https://www.frontendmentor.io/solutions/results-summary-component-tailwindcss-s7Q8nFvUk6)
 - Live Site URL: [https://results-summary-component-1c42c0.netlify.app/](https://results-summary-component-1c42c0.netlify.app/)
 
 <br>
